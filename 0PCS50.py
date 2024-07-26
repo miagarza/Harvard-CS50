@@ -1,23 +1,23 @@
 #1ST QUESTION ON PROBLEM SET
-#name=input("What is your name? ").lower()
-#print(name)
+name=input("What is your name? ").lower()
+print(name)
 
 
 #2ND QUESTION ON PROBLEM SET
-#print("Create a three letter sentence")
-#one= input("Enter the first word: ")
-#two= input("Enter the second word: ")
-#three= input("Enter the third word: ")
+print("Create a three letter sentence")
+one= input("Enter the first word: ")
+two= input("Enter the second word: ")
+three= input("Enter the third word: ")
 
-#print(one + "..." + two + "..." + three)
+print(one + "..." + two + "..." + three)
 
 #3RD` EINSTEIN`
-#c=3 * 10**8
+c=3 * 10**8
 
-#mass=int(input("enter mass amount: "))
-#energy= mass * c**2
+mass=int(input("enter mass amount: "))
+energy= mass * c**2
 
-#print("the equation is equal to " , energy )
+print("the equation is equal to " , energy )
 
 #4TH TIP CALCULATOR
 def main():
