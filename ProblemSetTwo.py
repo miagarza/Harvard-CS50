@@ -150,6 +150,8 @@ def print_square(size):
 main()
 """
 
+
+"""
 def main():
     print_square(3)
 
@@ -164,5 +166,50 @@ def print_row(width):
 
 
 main()
+"""
+
+#################################################################
+#problem sets!
+
+
+
+#1- camelCase
+
+
+def camelcase():
+    name=input("camelCase: ")
+    
+
+    print(name)
+
+
+
+
+
+
+#2- Coke
+
+"""
+ad=50
+
+while ad != 0:
+    print("Amount Due:", ad)
+    payment=int(input("Insert Coin: "))
+    ad=ad-payment 
+print("Change Owed:", ad)
+"""
+
+
+"""
+#3- twttr
+
+def no_vwls():
+    here= input("Input: ")
+    here=here.lower().replace("a","")
+    print("Output:"+ here)
+
+no_vwls()
+"""
+
 
 
