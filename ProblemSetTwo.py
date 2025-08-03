@@ -172,7 +172,7 @@ main()
 #problem sets!
 
 
-
+"""
 #1- camelCase
 
 
@@ -184,7 +184,7 @@ def camelcase():
 
 
 
-
+"""
 
 
 #2- Coke
@@ -212,4 +212,26 @@ no_vwls()
 """
 
 
+#3- vanity plates
 
+
+
+#4- Nurtition Facts
+
+foods={
+    "name": "apple", "calories": 130,
+    "name": "avocado", "calories": 50,
+    "name": "banana", "calories": 110,
+    "name": "cantaloupe", "calories": 50,
+    "name": "grapes", "calories": 90,
+    "name": "honeydew", "calories": 50,
+    "name": "lemon", "calories": 15,
+    "name": "strawberries", "calories": 50,
+    "name": "watermelon", "calories": 80,
+}
+
+def food():
+    item=input("Item: ")
+    print(f"Calories: {foods["calories"]}" )
+
+food()
